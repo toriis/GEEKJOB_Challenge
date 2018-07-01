@@ -26,7 +26,7 @@ public class Method3 extends HttpServlet {
     }
     
     void multiplication ( boolean result , PrintWriter pw ) {
-        multiplication ( 2, 3, true , out );
+        multiplication ( 2, 3, result , pw );
     }
 
     /**
